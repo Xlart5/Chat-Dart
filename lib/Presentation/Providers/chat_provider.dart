@@ -21,6 +21,7 @@ class Chatprovider extends ChangeNotifier {
     moveScrollToBottom();
   }
 
+  // hola munndo
   Future<void> herReply() async {
     final herMessage = await GetYesNoAnswer.getAnswer();
     mesaggeList.add(herMessage);
